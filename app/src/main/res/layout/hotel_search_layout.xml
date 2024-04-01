@@ -145,6 +145,8 @@
                 android:text="CONFIRM MY SEARCH"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@android:color/white"
                 android:layout_marginTop="20dp"
                 app:layout_constraintTop_toBottomOf="@id/search_confirm_text_view"/>
 
@@ -155,6 +157,8 @@
                 android:text="SEARCH"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@android:color/white"
                 android:layout_marginTop="20dp"
                 app:layout_constraintTop_toBottomOf="@id/confirm_my_search_button"/>
 
@@ -165,6 +169,8 @@
                 android:text="Clear"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@android:color/white"
                 android:layout_marginTop="20dp"
                 app:layout_constraintTop_toBottomOf="@id/search_button"/>
 
@@ -176,6 +182,8 @@
                 android:text="Retrieve From Shared Pref"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@android:color/white"
                 android:layout_marginTop="20dp"
                 app:layout_constraintTop_toBottomOf="@id/clear_button"/>
 
