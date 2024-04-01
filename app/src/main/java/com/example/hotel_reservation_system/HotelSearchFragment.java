@@ -115,8 +115,8 @@ public class HotelSearchFragment extends Fragment {
                 HotelsListFragment hotelsListFragment = new HotelsListFragment();
                 hotelsListFragment.setArguments(bundle);
 
-                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.main_layout, hotelsListFragment);
+                FragmentTransaction fragmentTransaction = getParentFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.frame_layout, hotelsListFragment);
                 fragmentTransaction.remove(HotelSearchFragment.this);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
